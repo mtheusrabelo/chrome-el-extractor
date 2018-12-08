@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "El Extractor",
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["src.js"]
+        }
+    ],
+    "background" : {
+        "scripts" : ["background.js"]
+    },
+    "browser_action": {},
+    "permissions": ["activeTab"]
+}
