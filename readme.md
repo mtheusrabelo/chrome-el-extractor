@@ -14,6 +14,3 @@ Use this Chrome Extension to extract elements from a page using query selectors
 - A prompt will ask for the query selector
 - Type the selector and click OK
 - The page will show only the element you've selected
-
-## Author
-Matheus Freire Rabelo
